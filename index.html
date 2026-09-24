@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atelier Volos — Hair Extensions in Sochi, 10 Deputatskaya St.</title>
+<meta name="description" content="Hair extension atelier in Sochi: premium Slavic hair from 40 to 75 cm, capsule and Hollywood extensions, four-hands service. Rated 5.0 on Yandex Maps, 69 reviews. Price calculator based on studio price list.">
+<meta name="theme-color" content="#241812">
+<meta property="og:title" content="Atelier Volos — Hair Extensions in Sochi">
+<meta property="og:description" content="Premium Slavic hair 40–75 cm, micro-capsules, four-hands service with no extra charge for speed. 5.0 on Yandex Maps.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23241812'/%3E%3Cg fill='%23EFE6D9'%3E%3Crect x='5' y='8' width='2' height='16'/%3E%3Crect x='11' y='8' width='2' height='9'/%3E%3Crect x='23' y='8' width='2' height='9'/%3E%3C/g%3E%3Crect x='17' y='6' width='2' height='20' fill='%238FB6D4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Golos+Text:wght@400;500;600;700&family=Martian+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top" id="top">
+  <a class="top__mark" href="#top" aria-label="Atelier Volos, back to top">
+    <span class="top__markA">Atelier</span><span class="top__markB">volos</span>
+  </a>
+  <nav class="top__nav" aria-label="Sections">
+    <a href="#methods">Techniques</a>
+    <a href="#works">Works</a>
+    <a href="#price">Price List</a>
+    <a href="#merka">Calculator</a>
+    <a href="#studio">Studio</a>
+  </nav>
+  <a class="top__cta" href="#book">Book Now</a>
+</header>
+
+<main id="main">
+
+<!-- ─── HERO ────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero__text">
+    <p class="eyebrow">Sochi · 10 Deputatskaya St. · Since 2017</p>
+    <h1 class="hero__h1">Hair That Is<br><em>Indistinguishable</em> From Your Own</h1>
+    <p class="hero__lead">
+      Hair extension atelier in Sochi. Premium Slavic hair matched to your color and length, micro-capsules,
+      four-hands service — twice as fast with no extra charge for speed.
+    </p>
+
+    <div class="hero__acts">
+      <a class="btn btn--solid" href="#merka">Calculate Cost</a>
+      <a class="btn btn--ghost" href="#book">Book a Consultation</a>
+    </div>
+
+    <dl class="hero__stats" id="heroStats"></dl>
+  </div>
+
+  <figure class="hero__shot">
+    <img src="assets/photo/p044-1280.webp" alt="Client holding a hair bundle against her own hair, with a display of bundles in the background" width="1280" height="2216" fetchpriority="high" decoding="async">
+    <figcaption>Matching a bundle to the client's color</figcaption>
+  </figure>
+</section>
+
+<!-- ─── TECHNIQUES ─────────────────────────────────────────────── -->
+<section class="sec sec--dark" id="methods">
+  <header class="sec__head">
+    <p class="eyebrow">Three Methods</p>
+    <h2 class="h2">Extension Techniques</h2>
+    <p class="sec__sub">They differ in attachment method, price, and how follow-up corrections are done.</p>
+  </header>
+  <div class="methods" id="methodsList"></div>
+</section>
+
+<!-- ─── WORKS ──────────────────────────────────────────────── -->
+<section class="sec sec--wide" id="works">
+  <header class="sec__head">
+    <p class="eyebrow">129 shots from the studio</p>
+    <h2 class="h2">Works, Hair & The Atelier</h2>
+    <p class="sec__sub">Everything shot at the studio on Deputatskaya. Click any image to view enlarged.</p>
+  </header>
+  <div class="filters" id="filters" role="tablist" aria-label="Gallery sections"></div>
+  <div class="grid" id="grid"></div>
+  <div class="grid__more"><button class="btn btn--ghost" id="moreBtn">Show more</button></div>
+</section>
+
+<!-- ─── PRICE ───────────────────────────────────────────────── -->
+<section class="sec" id="price">
+  <header class="sec__head">
+    <p class="eyebrow">Studio Price List</p>
+    <h2 class="h2">Pricing</h2>
+    <p class="sec__sub">As published by the studio on Yandex Maps. Range depends on hair length and density.</p>
+  </header>
+  <div class="price" id="priceList"></div>
+
+  <div class="promos">
+    <h3 class="promos__t">Current Offers</h3>
+    <ul class="promos__l" id="promosList"></ul>
+  </div>
+</section>
+
+<!-- ─── CALCULATOR ───────────────────────────────── -->
+<section class="merka" id="merka">
+  <div class="merka__in">
+
+    <header class="merka__head">
+      <p class="eyebrow eyebrow--light">Order Sheet</p>
+      <h2 class="h2 h2--light">Build Your Estimate</h2>
+      <p class="merka__sub">
+        In the price list above, hair is priced per 100 grams and the stylist's work is per strand.
+        Here the two amounts are added together: choose the bundle length, hair weight and number
+        of strands to see how the total for a visit is calculated.
+      </p>
+    </header>
+
+    <!-- tape -->
+    <div class="tape">
+      <div class="tape__label">
+        <span class="tape__cap">Bundle Length</span>
+        <output class="tape__val" id="tapeVal">50 cm</output>
+      </div>
+      <div class="tape__body">
+        <div class="tape__ruler" aria-hidden="true"></div>
+        <div class="tape__nums" id="tapeNums" aria-hidden="true"></div>
+        <div class="tape__mark" id="tapeMark" aria-hidden="true"></div>
+        <input class="tape__range" id="tapeRange" type="range" min="40" max="75" step="5" value="50"
+               aria-label="Bundle length in centimeters">
+      </div>
+      <p class="tape__note" id="tapeNote"></p>
+    </div>
+
+    <!-- technique switch -->
+    <div class="seg" role="tablist" aria-label="Extension technique">
+      <button class="seg__b is-on" role="tab" aria-selected="true" data-mode="capsule">Capsule</button>
+      <button class="seg__b" role="tab" aria-selected="false" data-mode="hollywood">Hollywood</button>
+    </div>
+
+    <!-- two columns -->
+    <div class="slip">
+      <section class="slip__col">
+        <h3 class="slip__t"><span>Material</span><small>premium Slavic hair</small></h3>
+        <p class="slip__rate" id="matRate">28,000 ₽ per 100 g</p>
+        <label class="ctl">
+          <span class="ctl__cap">How much hair <output id="gramsVal">150 g</output></span>
+          <input id="grams" type="range" min="50" max="250" step="25" value="150" aria-label="Hair weight in grams">
+        </label>
+        <p class="slip__sum" id="matSum">42,000 ₽</p>
+        <p class="slip__fine">The hair remains yours — it can be reused for several corrections.</p>
+      </section>
+
+      <section class="slip__col">
+        <h3 class="slip__t"><span>Work</span><small id="workSub">capsule extensions</small></h3>
+
+        <div class="pick" id="pickTier">
+          <button class="pick__b is-on" data-tier="master">Master<small>4+ years exp.</small></button>
+          <button class="pick__b" data-tier="top">Top Master<small>7+ years exp.</small></button>
+        </div>
+
+        <div id="capsuleCtl">
+          <p class="slip__rate" id="workRate">65 ₽ per strand</p>
+          <label class="ctl">
+            <span class="ctl__cap">How many strands <output id="strandsVal">120</output></span>
+            <input id="strands" type="range" min="40" max="200" step="10" value="120" aria-label="Number of strands">
+          </label>
+        </div>
+
+        <div id="hollyCtl" hidden>
+          <p class="slip__rate" id="tressRate"></p>
+          <p class="ctl__cap ctl__cap--static">How many wefts</p>
+          <div class="pick pick--4" id="pickTress">
+            <button class="pick__b is-on" data-tress="1">1</button>
+            <button class="pick__b" data-tress="2">2</button>
+            <button class="pick__b" data-tress="3">3</button>
+            <button class="pick__b" data-tress="4">4</button>
+          </div>
+        </div>
+
+        <p class="slip__sum" id="workSum">7,800 ₽</p>
+        <p class="slip__fine" id="workFine">Hair wash, encapsulation, haircut and styling are already included.</p>
+      </section>
+    </div>
+
+    <!-- total -->
+    <div class="total">
+      <div class="total__num">
+        <span class="total__cap">Estimate</span>
+        <strong id="totalSum">49,800 ₽</strong>
+        <span class="total__time" id="totalTime"></span>
+      </div>
+      <div class="total__acts">
+        <a class="btn btn--chalk" id="sendWa" href="#" target="_blank" rel="noopener">Send Estimate via WhatsApp</a>
+        <a class="btn btn--line" id="sendTg" href="#" target="_blank" rel="noopener">Via Telegram</a>
+      </div>
+    </div>
+    <p class="merka__fine">
+      This is not an invoice, but a calculation based on the published price list. How many grams and strands you
+      actually need will be calculated by the master at a <b>free consultation</b>, based on your density and length.
+    </p>
+  </div>
+</section>
+
+<!-- ─── REVIEWS ──────────────────────────────────────────────── -->
+<section class="sec sec--wide" id="reviews">
+  <header class="sec__head">
+    <p class="eyebrow">5.0 on Yandex Maps · 69 reviews</p>
+    <h2 class="h2">What Our Clients Say</h2>
+  </header>
+  <div class="aspects" id="aspects"></div>
+  <div class="revs" id="revsList"></div>
+  <p class="sec__after">
+    <a class="link" id="allReviews" href="#" target="_blank" rel="noopener">All 69 reviews on Yandex Maps →</a>
+  </p>
+</section>
+
+<!-- ─── STUDIO ──────────────────────────────────────────────── -->
+<section class="sec studio" id="studio">
+  <div class="studio__text">
+    <p class="eyebrow">The Atelier</p>
+    <h2 class="h2">A Place Clients Return To for Years</h2>
+    <p>
+      The studio on Deputatskaya has been operating since 2017. We don't just do extensions: we match
+      bundles by color and texture, do coloring, restore hair after unsuccessful bleaching and offer manicures —
+      several procedures can be done in one visit.
+    </p>
+    <p>
+      Hair is kept in an open display: you can touch the bundles and hold them against your own hair
+      before making a decision. The consultation is free and non-binding.
+    </p>
+    <ul class="comforts" id="comforts"></ul>
+    <h3 class="studio__mt">Masters Mentioned in Reviews</h3>
+    <ul class="masters" id="mastersList"></ul>
+  </div>
+  <div class="studio__pics" id="studioPics"></div>
+</section>
+
+<!-- ─── LOCATION ───────────────────────────────────────────── -->
+<section class="sec" id="where">
+  <header class="sec__head">
+    <p class="eyebrow">How to Find Us</p>
+    <h2 class="h2">10 Deputatskaya St.</h2>
+    <p class="sec__sub" id="whereSub"></p>
+  </header>
+  <div class="way" id="way"></div>
+  <div class="mapwrap">
+    <iframe title="Atelier Volos on the map: Sochi, 10 Deputatskaya St." loading="lazy"
+      src="https://yandex.ru/map-widget/v1/org/atelier_volos/146799649318/?ll=39.73707%2C43.572297&z=17"></iframe>
+  </div>
+</section>
+
+<!-- ─── BOOKING ──────────────────────────────────────────────── -->
+<section class="book" id="book">
+  <div class="book__in">
+    <p class="eyebrow eyebrow--light">Booking</p>
+    <h2 class="h2 h2--light">It Starts With a Consultation</h2>
+    <p class="book__sub">
+      The master examines your density and length, selects a bundle and calculates the exact total.
+      The consultation is free. Message us — or choose a time in the studio schedule.
+    </p>
+
+    <form class="form" id="form" novalidate>
+      <div class="form__row">
+        <label class="fld"><span>Your name</span>
+          <input id="fName" type="text" autocomplete="name" placeholder="Name"></label>
+        <label class="fld"><span>Service of interest</span>
+          <select id="fWhat">
+            <option>Hair extensions</option>
+            <option>Extension correction</option>
+            <option>Hollywood extensions</option>
+            <option>Coloring</option>
+            <option>Hair care</option>
+            <option>Haircut & styling</option>
+            <option>Manicure</option>
+            <option>Buying hair</option>
+          </select></label>
+      </div>
+      <label class="fld"><span>Preferred time</span>
+        <input id="fWhen" type="text" placeholder="e.g. Saturday after 3 PM"></label>
+      <label class="fld fld--chk">
+        <input id="fCalc" type="checkbox" checked>
+        <span>Attach my estimate <b id="calcEcho"></b></span>
+      </label>
+      <div class="form__acts">
+        <button class="btn btn--chalk" type="submit" id="toWa">Message on WhatsApp</button>
+        <a class="btn btn--line" id="toTg" href="#" target="_blank" rel="noopener">Message on Telegram</a>
+      </div>
+      <p class="form__fine">
+        The button opens the messenger with a pre-written message — just hit send.
+        Nothing is sent without your click.
+      </p>
+    </form>
+
+    <div class="book__alt">
+      <a class="link link--light" id="bookYa" href="#" target="_blank" rel="noopener">Choose a time in the studio schedule →</a>
+      <a class="link link--light" id="bookTel" href="#">Call: +7 (928) 234-98-38</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div class="foot__c">
+      <p class="foot__mark"><span>Atelier</span><span>volos</span></p>
+      <p class="foot__addr" id="footAddr"></p>
+    </div>
+    <div class="foot__c">
+      <h3>Contact</h3>
+      <p><a href="#" id="footTel"></a></p>
+      <p><a href="#" id="footWa" target="_blank" rel="noopener">WhatsApp</a></p>
+      <p><a href="#" id="footTg" target="_blank" rel="noopener">Telegram</a></p>
+    </div>
+    <div class="foot__c">
+      <h3>Hours</h3>
+      <p id="footHours"></p>
+      <p><a href="#" id="footMaps" target="_blank" rel="noopener">Yandex Maps listing</a></p>
+    </div>
+  </div>
+  <p class="foot__legal" id="footLegal"></p>
+  <p class="foot__demo">
+    Demo website for the studio, built <a href="https://narodniy-team.ru" target="_blank" rel="noopener">Narodniy&nbsp;Team</a>
+    using public data from the Yandex Business listing. Photos, prices and reviews belong to Atelier&nbsp;Volos.
+  </p>
+</footer>
+
+<div class="dock">
+  <a class="dock__b dock__b--main" href="#book">Book Now</a>
+  <a class="dock__b" id="dockWa" href="#" target="_blank" rel="noopener" aria-label="Message on WhatsApp">WhatsApp</a>
+</div>
+
+<div class="lb" id="lb" hidden>
+  <button class="lb__x" id="lbX" aria-label="Close">✕</button>
+  <button class="lb__nav lb__nav--p" id="lbP" aria-label="Previous photo">‹</button>
+  <button class="lb__nav lb__nav--n" id="lbN" aria-label="Next photo">›</button>
+  <figure class="lb__f"><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
